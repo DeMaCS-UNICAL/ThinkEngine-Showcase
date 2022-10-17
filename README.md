@@ -9,3 +9,5 @@ You can find some games using the ThinkEngine asset at the following repositorie
 | Tetris  | [Tetris on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-Tetris)  | 2.0 (Reactive Brain only) &nbsp; | Positioning of falling tetrominoes|
 | Frogger | [Frogger on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-Frogger)  | 2.0 (Reactive Brain only) &nbsp; | Frog movements|
 | Space Invaders | [Space Invaders on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-Space-Invaders)  | 2.0 (Planner Brain only) | Laser shooting and movements|
+| Asteroids | [Asteroids on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-Asteroids)  | 2.0 (Planner Brain only) | Laser shooting and movements|
+
