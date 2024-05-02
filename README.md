@@ -11,4 +11,5 @@ You can find some games using the ThinkEngine asset at the following repositorie
 | Frogger | [Frogger on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-Frogger)  | 2.0 (Reactive Brain only) &nbsp; | Frog movements |
 | Space Invaders | [Space Invaders on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-Space-Invaders)  | 2.0 (Planner Brain only) | Main player's laser shooting and left-right movements|
 | Asteroids | [Asteroids on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-Asteroids)  | 2.0 (Planner Brain only) | Main player's laser shooting, ship rotation and thrust control |
-
+| CookedUp | [CookedUp on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-CookedUp)  | 2.0 (Planner Brain only) | AI Bot-cook |
+| Boss Room | [Boss Room on Github](https://github.com/DeMaCS-UNICAL/ThinkEngine-Games-BossRoom) | 2.0 (Planner Brain only) | AI Player |
