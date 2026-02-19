@@ -1,0 +1,8 @@
+{
+	"/": [
+		"src/routes/+page.ts"
+	],
+	"/games/[slug]": [
+		"src/routes/games/[slug]/+page.ts"
+	]
+}
