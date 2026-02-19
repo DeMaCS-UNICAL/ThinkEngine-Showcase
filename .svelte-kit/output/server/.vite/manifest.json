@@ -1,0 +1,185 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_root.js",
+      "_environment.js",
+      "_internal.js"
+    ]
+  },
+  "_CardBody.js": {
+    "file": "chunks/CardBody.js",
+    "name": "CardBody",
+    "imports": [
+      "_index2.js",
+      "_Theme.svelte_svelte_type_style_lang.js"
+    ]
+  },
+  "_Theme.CNRe0r1A.css": {
+    "file": "_app/immutable/assets/Theme.CNRe0r1A.css",
+    "src": "_Theme.CNRe0r1A.css"
+  },
+  "_Theme.svelte_svelte_type_style_lang.js": {
+    "file": "chunks/Theme.svelte_svelte_type_style_lang.js",
+    "name": "Theme.svelte_svelte_type_style_lang",
+    "imports": [
+      "_index2.js",
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Theme.CNRe0r1A.css"
+    ]
+  },
+  "_environment.js": {
+    "file": "chunks/environment.js",
+    "name": "environment"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_false.js": {
+    "file": "chunks/false.js",
+    "name": "false"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index"
+  },
+  "_index3.js": {
+    "file": "chunks/index3.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_root.js",
+      "_environment.js"
+    ]
+  },
+  "_root.js": {
+    "file": "chunks/root.js",
+    "name": "root",
+    "imports": [
+      "_index2.js",
+      "_false.js"
+    ]
+  },
+  "_shared.js": {
+    "file": "chunks/shared.js",
+    "name": "shared",
+    "imports": [
+      "_utils.js"
+    ]
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js": {
+    "file": "remote-entry.js",
+    "name": "remote-entry",
+    "src": "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js",
+    "isEntry": true,
+    "imports": [
+      "_shared.js",
+      "_false.js",
+      "_environment.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_exports.js",
+      "_root.js",
+      "_utils.js",
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_false.js",
+      "_environment.js",
+      "_shared.js",
+      "_exports.js",
+      "_utils.js",
+      "_index.js",
+      "_internal.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Theme.svelte_svelte_type_style_lang.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Theme.svelte_svelte_type_style_lang.js",
+      "_CardBody.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BwRY1OD6.css"
+    ]
+  },
+  "src/routes/+page.ts": {
+    "file": "entries/pages/_page.ts.js",
+    "name": "entries/pages/_page.ts",
+    "src": "src/routes/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "src/routes/games/[slug]/+page.svelte": {
+    "file": "entries/pages/games/_slug_/_page.svelte.js",
+    "name": "entries/pages/games/_slug_/_page.svelte",
+    "src": "src/routes/games/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Theme.svelte_svelte_type_style_lang.js",
+      "_CardBody.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BxBCNu7l.css"
+    ]
+  },
+  "src/routes/games/[slug]/+page.ts": {
+    "file": "entries/pages/games/_slug_/_page.ts.js",
+    "name": "entries/pages/games/_slug_/_page.ts",
+    "src": "src/routes/games/[slug]/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_index3.js"
+    ]
+  }
+}

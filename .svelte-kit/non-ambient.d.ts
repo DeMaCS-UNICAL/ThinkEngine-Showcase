@@ -36,7 +36,7 @@ declare module "$app/types" {
 			"/games": { slug?: string };
 			"/games/[slug]": { slug: string }
 		};
-		Pathname(): "/" | "/games" | "/games/" | `/games/${string}` & {} | `/games/${string}/` & {};
+		Pathname(): "/" | `/games/${string}` & {};
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
 		Asset(): "/docs/prototype-one.md" | "/images/demacs-logo.png" | "/images/placeholder-game.png" | "/robots.txt" | string & {};
 	}
