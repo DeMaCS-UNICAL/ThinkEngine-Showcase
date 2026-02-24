@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Game } from '$lib/types/game';
+  import { base } from '$app/paths';
   import {
     Card, CardBody, CardTitle, CardText, Badge, Button
   } from '@sveltestrap/sveltestrap';
@@ -8,10 +9,13 @@
   export let clickable: boolean = true;
 
   // Fallback se manca la thumbnail
-  const fallback = '/images/placeholder-game.png';
+  const fallback = `${base}/images/placeholder-game.png`;
+ 
   const thumbnailSrc =
     game.thumbnail && game.thumbnail.trim() !== ''
-      ? game.thumbnail
+      ? game.thumbnail.startsWith('http')
+        ? game.thumbnail
+        : `${base}${game.thumbnail}`
       : fallback;
 </script>
 
@@ -22,7 +26,7 @@
     {#if clickable}
       <a
         class="stretched-link"
-        href={`/games/${game.slug}`}
+        href={`${base}/games/${game.slug}`}
         aria-label={`Vai a ${game.title}`}
       />
     {/if}
