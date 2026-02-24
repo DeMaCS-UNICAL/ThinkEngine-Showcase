@@ -12,6 +12,6 @@
     </p>
   </div>
 
-  <!-- In home i link ai dettagli sono disattivati -->
-  <GameGrid games={data.games} clickable={false} />
+  
+  <GameGrid games={data.games}  />
 </section>

@@ -4,7 +4,7 @@
   import GameHeader from '$lib/components/GameHeader.svelte';
   import GameMeta from '$lib/components/GameMeta.svelte';
   import DocBlock from '$lib/components/DocBlock.svelte';
-
+  import {base} from '$app/paths';
   export let data: { game: Game };
   const { game } = data;
 </script>
@@ -30,7 +30,7 @@
 
 <!-- Back action (mobile friendly) -->
 <div class="mt-4">
-  <Button color="light" outline href="/">
+  <Button color="light" outline href={`${base}/`}>
     <i class="bi bi-arrow-left me-1"></i> Torna alla Home
   </Button>
 </div>
