@@ -11,13 +11,10 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: '404.html'
+			fallback: 'index.html'   
 		}),
 		paths: {
 			base: dev ? '' : '/ThinkEngine-Showcase'
-		},
-		prerender: {
-			handleHttpError: 'ignore'
 		}
 	}
 };
