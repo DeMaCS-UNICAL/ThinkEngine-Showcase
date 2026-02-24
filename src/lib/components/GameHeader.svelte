@@ -1,12 +1,17 @@
 <script lang="ts">
   import type { Game } from '$lib/types/game';
   import { Badge, Button } from '@sveltestrap/sveltestrap';
+  import { base } from '$app/paths';
+
   export let game: Game;
 
-  const fallback = '/images/placeholder-game.png';
+  const fallback = `${base}/images/placeholder-game.png`;
+
   const thumbnailSrc =
     game.thumbnail && game.thumbnail.trim() !== ''
-      ? game.thumbnail
+      ? game.thumbnail.startsWith('http')
+        ? game.thumbnail
+        : `${base}${game.thumbnail}`
       : fallback;
 </script>
 
