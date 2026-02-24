@@ -11,7 +11,7 @@
 
 <!-- Breadcrumb -->
 <Breadcrumb class="mb-3">
-  <BreadcrumbItem href="/">Home</BreadcrumbItem>
+  <BreadcrumbItem href={`${base}/`}>Home</BreadcrumbItem>
   <BreadcrumbItem active>{game.title}</BreadcrumbItem>
 </Breadcrumb>
 

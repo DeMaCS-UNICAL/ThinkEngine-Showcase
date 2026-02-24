@@ -18,7 +18,13 @@
     </NavbarBrand>
 
     <!-- Bottone Docs -->
-    <Button color="primary" class="d-flex align-items-center gap-2">
+    <Button
+      color="primary"
+      class="d-flex align-items-center gap-2"
+      href="https://github.com/DeMaCS-UNICAL/ThinkEngine"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <i class="bi bi-journal-text"></i>
       ThinkEngine Docs
     </Button>

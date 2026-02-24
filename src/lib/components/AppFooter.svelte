@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Container, Row, Col } from '@sveltestrap/sveltestrap';
 
-  export let githubUrl = 'https://github.com/tuo-username/tuo-repo';
+  export let githubUrl = 'https://github.com/DeMaCS-UNICAL/ThinkEngine-Showcase';
 </script>
 
 <footer class="bg-dark border-top border-secondary mt-5 py-3">
